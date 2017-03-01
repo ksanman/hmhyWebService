@@ -12,17 +12,20 @@ using hmhyWebserviceApp.Models;
 
 namespace hmhyWebserviceApp.Controllers
 {
+    [RoutePrefix("hmhyWebservice/user")]
     public class UsersController : ApiController
     {
         private hmhyWebserviceAppContext db = new hmhyWebserviceAppContext();
 
         // GET: api/Users
+        [Route("")]
         public IQueryable<User> GetUsers()
         {
             return db.Users;
         }
 
         // GET: api/Users/5
+        [Route("{id:int}")]
         [ResponseType(typeof(User))]
         public IHttpActionResult GetUser(int id)
         {
