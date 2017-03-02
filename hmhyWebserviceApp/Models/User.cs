@@ -7,7 +7,7 @@ using System.Web;
 
 namespace hmhyWebserviceApp.Models
 {
-    public class User
+    public class MainUser
     {
         [Required]
         public int userId { get; set; }

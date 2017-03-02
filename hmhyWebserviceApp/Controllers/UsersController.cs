@@ -19,17 +19,17 @@ namespace hmhyWebserviceApp.Controllers
 
         // GET: api/Users
         [Route("")]
-        public IQueryable<User> GetUsers()
+        public IQueryable<MainUser> GetUsers()
         {
             return db.Users;
         }
 
         // GET: api/Users/5
         [Route("{id:int}")]
-        [ResponseType(typeof(User))]
+        [ResponseType(typeof(MainUser))]
         public IHttpActionResult GetUser(int id)
         {
-            User user = db.Users.Find(id);
+            MainUser user = db.Users.Find(id);
             if (user == null)
             {
                 return NotFound();
@@ -40,7 +40,7 @@ namespace hmhyWebserviceApp.Controllers
 
         // PUT: api/Users/5
         [ResponseType(typeof(void))]
-        public IHttpActionResult PutUser(int id, User user)
+        public IHttpActionResult PutUser(int id, MainUser user)
         {
             if (!ModelState.IsValid)
             {
@@ -74,8 +74,8 @@ namespace hmhyWebserviceApp.Controllers
         }
 
         // POST: api/Users
-        [ResponseType(typeof(User))]
-        public IHttpActionResult PostUser(User user)
+        [ResponseType(typeof(MainUser))]
+        public IHttpActionResult PostUser(MainUser user)
         {
             if (!ModelState.IsValid)
             {
@@ -89,10 +89,10 @@ namespace hmhyWebserviceApp.Controllers
         }
 
         // DELETE: api/Users/5
-        [ResponseType(typeof(User))]
+        [ResponseType(typeof(MainUser))]
         public IHttpActionResult DeleteUser(int id)
         {
-            User user = db.Users.Find(id);
+            MainUser user = db.Users.Find(id);
             if (user == null)
             {
                 return NotFound();

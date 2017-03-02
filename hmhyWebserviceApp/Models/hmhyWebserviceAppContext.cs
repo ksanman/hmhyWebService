@@ -19,6 +19,6 @@ namespace hmhyWebserviceApp.Models
         {
         }
 
-        public System.Data.Entity.DbSet<hmhyWebserviceApp.Models.User> Users { get; set; }
+        public System.Data.Entity.DbSet<hmhyWebserviceApp.Models.MainUser> Users { get; set; }
     }
 }
