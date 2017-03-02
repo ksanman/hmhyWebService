@@ -62,3 +62,5 @@ C:\Users\Xaber\Repos\hmhyWebservice\hmhyWebservice\hmhyWebserviceApp\bin\System.
 C:\Users\Xaber\Repos\hmhyWebservice\hmhyWebservice\hmhyWebserviceApp\obj\Debug\hmhyWebserviceApp.csprojResolveAssemblyReference.cache
 C:\Users\Xaber\Repos\hmhyWebservice\hmhyWebservice\hmhyWebserviceApp\obj\Debug\hmhyWebserviceApp.dll
 C:\Users\Xaber\Repos\hmhyWebservice\hmhyWebservice\hmhyWebserviceApp\obj\Debug\hmhyWebserviceApp.pdb
+C:\Users\Xaber\Repos\hmhyWebservice\hmhyWebservice\hmhyWebserviceApp\obj\Debug\hmhyWebserviceApp.Migrations.Initial.resources
+C:\Users\Xaber\Repos\hmhyWebservice\hmhyWebservice\hmhyWebserviceApp\obj\Debug\hmhyWebserviceApp.csproj.GenerateResource.Cache
