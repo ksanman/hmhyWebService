@@ -9,8 +9,11 @@ namespace hmhyWebserviceApp.Models
 {
     public class MainUser
     {
-        [Required]
+        [Required]       
+        [Key]
+        public int userKey { get; set; }
         public int userId { get; set; }
+        [ForeignKey("userId")]
         public UserCredentials userCreds {get;set;}
         
         // Other user objects...

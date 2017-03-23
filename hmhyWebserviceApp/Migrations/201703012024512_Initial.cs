@@ -11,6 +11,7 @@ namespace hmhyWebserviceApp.Migrations
                 "dbo.Users",
                 c => new
                     {
+                        userKey = c.Int(nullable:false, identity: true),
                         userId = c.Int(nullable: false, identity: true),
                         userCreds_userId = c.Int(nullable: false),
                         userCreds_userName = c.String(),

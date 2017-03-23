@@ -8,8 +8,9 @@ namespace hmhyWebserviceApp.Models
 {
     public class UserCredentials
     {
-        [Required]
+        [Key]
         public int userId { get; set; }
+        [Required]
         public string userName { get; set; }
         public string password { get; set; }
     }
