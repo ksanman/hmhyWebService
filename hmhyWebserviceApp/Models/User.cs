@@ -11,7 +11,6 @@ namespace hmhyWebserviceApp.Models
     {
         [Required]       
         [Key]
-        public int userKey { get; set; }
         public int userId { get; set; }
         [ForeignKey("userId")]
         public UserCredentials userCreds {get;set;}
