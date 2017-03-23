@@ -17,7 +17,7 @@ namespace hmhyWebserviceApp.Migrations
         protected override void Seed(hmhyWebserviceApp.Models.hmhyWebserviceAppContext context)
         {
             // Seed the data base with a test user object. 
-            context.Users.AddOrUpdate(new MainUser()
+            context.MainUser.AddOrUpdate(new MainUser()
             {
                 userId = 1,
                 userCreds = new UserCredentials()

@@ -8,7 +8,7 @@ namespace hmhyWebserviceApp.Migrations
         public override void Up()
         {
             CreateTable(
-                "dbo.Users",
+                "dbo.MainUser",
                 c => new
                     {
                         userId = c.Int(nullable: false, identity: true),
@@ -22,7 +22,7 @@ namespace hmhyWebserviceApp.Migrations
         
         public override void Down()
         {
-            DropTable("dbo.Users");
+            DropTable("dbo.MainUser");
         }
     }
 }

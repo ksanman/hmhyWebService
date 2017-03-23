@@ -13,7 +13,7 @@ using hmhyWebserviceApp.Models;
 namespace hmhyWebserviceApp.Controllers
 {
     [RoutePrefix("hmhyWebservice/user")]
-    public class UsersController : ApiController
+    public class MainUserController : ApiController
     {
         private hmhyWebserviceAppContext db = new hmhyWebserviceAppContext();
 
@@ -21,7 +21,7 @@ namespace hmhyWebserviceApp.Controllers
         [Route("")]
         public IQueryable<MainUser> GetUsers()
         {
-            return db.Users;
+            return db.MainUser;
         }
 
         // GET: api/Users/5
@@ -29,7 +29,7 @@ namespace hmhyWebserviceApp.Controllers
         [ResponseType(typeof(MainUser))]
         public IHttpActionResult GetUser(int id)
         {
-            MainUser user = db.Users.Find(id);
+            MainUser user = db.MainUser.Find(id);
             if (user == null)
             {
                 return NotFound();
@@ -82,7 +82,7 @@ namespace hmhyWebserviceApp.Controllers
                 return BadRequest(ModelState);
             }
 
-            db.Users.Add(user);
+            db.MainUser.Add(user);
             db.SaveChanges();
 
             return CreatedAtRoute("DefaultApi", new { id = user.userId }, user);
@@ -92,13 +92,13 @@ namespace hmhyWebserviceApp.Controllers
         [ResponseType(typeof(MainUser))]
         public IHttpActionResult DeleteUser(int id)
         {
-            MainUser user = db.Users.Find(id);
+            MainUser user = db.MainUser.Find(id);
             if (user == null)
             {
                 return NotFound();
             }
 
-            db.Users.Remove(user);
+            db.MainUser.Remove(user);
             db.SaveChanges();
 
             return Ok(user);
@@ -115,7 +115,7 @@ namespace hmhyWebserviceApp.Controllers
 
         private bool UserExists(int id)
         {
-            return db.Users.Count(e => e.userId == id) > 0;
+            return db.MainUser.Count(e => e.userId == id) > 0;
         }
     }
 }
