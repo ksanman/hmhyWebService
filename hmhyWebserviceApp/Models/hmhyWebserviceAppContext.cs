@@ -17,8 +17,10 @@ namespace hmhyWebserviceApp.Models
     
         public hmhyWebserviceAppContext() : base("name=hmhyWebserviceAppContext")
         {
+            Database.SetInitializer<hmhyWebserviceAppContext>(null);
         }
 
         public System.Data.Entity.DbSet<hmhyWebserviceApp.Models.MainUser> MainUser { get; set; }
+        public System.Data.Entity.DbSet<hmhyWebserviceApp.Models.UserCredentials> UserCredentials { get; set; }
     }
 }
