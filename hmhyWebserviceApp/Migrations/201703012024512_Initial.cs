@@ -15,6 +15,7 @@ namespace hmhyWebserviceApp.Migrations
                         userCreds_userId = c.Int(nullable: false),
                         userCreds_userName = c.String(),
                         userCreds_password = c.String(),
+                        
                     })
                 .PrimaryKey(t => t.userId);
             

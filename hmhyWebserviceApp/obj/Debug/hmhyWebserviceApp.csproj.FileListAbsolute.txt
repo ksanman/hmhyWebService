@@ -59,8 +59,8 @@ C:\Users\Xaber\Repos\hmhyWebservice\hmhyWebservice\hmhyWebserviceApp\bin\Newtons
 C:\Users\Xaber\Repos\hmhyWebservice\hmhyWebservice\hmhyWebserviceApp\bin\System.Net.Http.Formatting.xml
 C:\Users\Xaber\Repos\hmhyWebservice\hmhyWebservice\hmhyWebserviceApp\bin\System.Web.Http.xml
 C:\Users\Xaber\Repos\hmhyWebservice\hmhyWebservice\hmhyWebserviceApp\bin\System.Web.Http.WebHost.xml
-C:\Users\Xaber\Repos\hmhyWebservice\hmhyWebservice\hmhyWebserviceApp\obj\Debug\hmhyWebserviceApp.csprojResolveAssemblyReference.cache
-C:\Users\Xaber\Repos\hmhyWebservice\hmhyWebservice\hmhyWebserviceApp\obj\Debug\hmhyWebserviceApp.dll
-C:\Users\Xaber\Repos\hmhyWebservice\hmhyWebservice\hmhyWebserviceApp\obj\Debug\hmhyWebserviceApp.pdb
 C:\Users\Xaber\Repos\hmhyWebservice\hmhyWebservice\hmhyWebserviceApp\obj\Debug\hmhyWebserviceApp.Migrations.Initial.resources
 C:\Users\Xaber\Repos\hmhyWebservice\hmhyWebservice\hmhyWebserviceApp\obj\Debug\hmhyWebserviceApp.csproj.GenerateResource.Cache
+C:\Users\Xaber\Repos\hmhyWebservice\hmhyWebservice\hmhyWebserviceApp\obj\Debug\hmhyWebserviceApp.dll
+C:\Users\Xaber\Repos\hmhyWebservice\hmhyWebservice\hmhyWebserviceApp\obj\Debug\hmhyWebserviceApp.pdb
+C:\Users\Xaber\Repos\hmhyWebservice\hmhyWebservice\hmhyWebserviceApp\obj\Debug\hmhyWebserviceApp.csprojResolveAssemblyReference.cache
